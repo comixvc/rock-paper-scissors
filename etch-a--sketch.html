@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            height : 30px;
+        }
+        #container {
+        }
+        div{
+            display : flex;
+        }
+        div *{
+            width : 30px;
+            background-color: red;
+        }
+        #reset {
+            margin: 50px;
+            padding : 10px 100px 10px 100px;
+        }
+    </style>
+</head>
+<body>
+    <container id="container">
+    </container>
+    <input type="number" id="squareSideInput" placeholder="Enter a number">
+    <button id="squareSide">change square side</button>
+    <button id="reset">Reset</button>
+</body>
+<script src="etch-a-sketch.js" defer></script>
